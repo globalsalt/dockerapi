@@ -23,7 +23,7 @@ namespace dockerapi.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "InVisible";
         }
 
         // POST api/<ValuesController>
